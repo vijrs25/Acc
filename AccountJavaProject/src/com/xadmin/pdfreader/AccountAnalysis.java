@@ -45,7 +45,7 @@ public class AccountAnalysis {
 		
 		TreeMap<String, TransactionParameters> dailyTransactionSet = new TreeMap<String, TransactionParameters>();
 
-		// In a single statement to headers like credit, Debits
+		// In a single statement to headers like credit, Debit
 		for (int i = 0; i < individualTrancsaction.length; i++) {
 			
 			String[] headers = individualTrancsaction[i].split(" ");
