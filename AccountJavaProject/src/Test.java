@@ -3,9 +3,13 @@ import com.xadmin.tools.AccountTools;
 public class Test {
 
 	public static void main(String[] args) {
-		System.out.println(("34,456.343").replaceAll(",",""));
-	    
-		System.out.println(  AccountTools.StringToDouble(("34,456.343").replaceAll(",",""))*2 );
-	}
+		int [] a= {1,2,3,4,5,6,7,8};
+	 
+		for (int i = 0; i < a.length; i++) {
+		    if(i>4)
+			System.out.println(">4");
+		    else
+		    	System.out.println("<3");
+		}
 
-}
+}}
