@@ -1,4 +1,4 @@
-package com.xadmin.pdfreader;
+package com.xadmin.accountHeaders;
 
 public class TransactionParameters {
 	
