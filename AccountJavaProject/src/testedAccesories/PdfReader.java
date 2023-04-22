@@ -1,4 +1,5 @@
-package com.xadmin.tools;
+package testedAccesories;
+
 
 import java.io.File;
 import java.io.IOException;
